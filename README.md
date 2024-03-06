@@ -17,7 +17,7 @@ The detailed structure of the ITSymNet model is shown in the following figure:
 
 ## Parameter preparation
 
-Please [download](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) the pre-training parameters for the CLIP model to the /model/ITSymNet/text_part/CLIP folder.
+Please [download](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) the pre-training parameters for the [CLIP](https://proceedings.mlr.press/v139/radford21a) model to the /model/ITSymNet/text_part/CLIP folder.
 
 ## Train model
 
