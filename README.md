@@ -5,7 +5,7 @@ This repo is an implementation of the paper: Learning Pseudo Text Prompt for Imp
 The detailed structure of the ITSymNet model is shown in the following figure:
 
 <p align="center">
-  <img src="Figures/ITSymNet.jpg" width="700"/>
+  <img src="Figures/main_figure.jpg" width="700"/>
 </p>
 
 ## Dataset
