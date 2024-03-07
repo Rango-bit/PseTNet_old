@@ -143,9 +143,9 @@ def main(model, args):
     print("training time {}".format(total_time_str))
 
 if __name__ == '__main__':
-    from model.ITSymNet.model_code import ITSymNet_model
+    from model.PseTNet.model_code import PseTNet_model
 
     args = read_parser()
-    model = ITSymNet_model(num_classes=args.num_classes, keywords=args.keywords,
+    model = PseTNet_model(num_classes=args.num_classes, keywords=args.keywords,
                            n_ctx=args.n_ctx, clip_params_path=args.clip_params_path)
     main(model, args)
