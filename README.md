@@ -1,8 +1,8 @@
-# ITSymNet
+# PseTNet
 
 This repo is an implementation of the paper: Learning Pseudo Text Prompt for Improved Vertebrae Segmentation.
 
-The detailed structure of the ITSymNet model is shown in the following figure:
+The detailed structure of the PseTNet model is shown in the following figure:
 
 <p align="center">
   <img src="Figures/main figure.jpg" width="700"/>
@@ -35,7 +35,7 @@ Please prepare the dataset in the following format to facilitate the use of the 
 ```
 ## Parameter preparation
 
-Please [download](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) the pre-training parameters for the [CLIP](https://proceedings.mlr.press/v139/radford21a) model to the /model/ITSymNet/text_part/CLIP folder.
+Please [download](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) the pre-training parameters for the [CLIP](https://proceedings.mlr.press/v139/radford21a) model to the /model/PseTNet/text_part/CLIP folder.
 
 ## Train model
 
